@@ -54,7 +54,7 @@ def main():
     ax.set_xticks([1, 2, 3])
     ax.set_xticklabels(["4", "8", "16"])
     ax.set_xlabel("number of domains (gpd = 8 fixed)")
-    ax.set_ylabel("completion-time gain vs C0 (%)")
+    ax.set_ylabel("gain vs C0 (%)")
     ax.set_xlim(0.6, 3.4)
     fig.tight_layout(pad=0.4)
     fig.savefig(OUTFILE)
