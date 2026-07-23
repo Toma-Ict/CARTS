@@ -77,7 +77,7 @@ def main():
             fontsize=7.5, color="white", zorder=4)
 
     ax.barh(3.45, COMP_US, height=0.34, color=CARTS_BLUE, alpha=0.40,
-            hatch="///", edgecolor=CARTS_BLUE, linewidth=0.0, zorder=2)
+            hatch="///", edgecolor="white", linewidth=0.6, zorder=2)
     ax.text(COMP_US + 5, 3.45,
             "DPU dedup %.0f \u00b5s \u00b7 overlaps transfer" % COMP_US,
             va="center", ha="left", fontsize=7.5, color=INK)
